@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    background-color: black;
+}
+
+.body-content {
+    background-color: white;
+}
+
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+.top-navbar {
+    height: 65px;
+    width: 100%;
+    display: flex;
+}
+
+.top-navbar-grid {
+    margin: auto 0;
+    width: 980px;
+}
+
+.top-navbar-in {
+    height: 20px;
+    width: auto;
+    margin: auto 0;
+}
+
+.logo {
+    display: flex;
+}
+
+.search {
+    margin-left: 100px;
+    width: 320px;
+    height: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: white;
+    border: solid rgb(60, 60, 60) 0.5px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search p {
+    margin: auto auto auto 15px;
+}
+
+.search-icon {
+    width: 64px;
+    height: 40px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #ebeaea;
+    border: solid rgb(60, 60, 60) 0.5px;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-icon-grid {
+    margin: auto;
+}
+
+.mic {
+    margin: auto 0;
+    margin-left: 15px;
+    background-color: #ebeaea;
+    padding: 7.5px;
+    border-radius: 25px;
+}
+
+.navbar-right {
+    margin:  auto 15px auto auto;
+    gap: 25px;
+}
+
+.navbar-right li{
+    list-style-type: none;
+    display:flex;
+    margin: auto;
+}
+
+.navbar-right li span {
+    margin: auto 0;
+    height: 26px;
+    width: 26px;
+}
+
+
+.navbar-right li img {
+    margin: auto 0;
+    height: 29px;
+    width: 29px;
+    border-radius: 25px;
+}
+
+.body {
+    display: flex;
+}
+
+.body-grid {
+    margin: auto;
+    width: 894px;
+}
+
+.body-content {
+   max-width: 980px;
+}
